@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+.right-nav {
+  display: flex;
+}
+
+.nav-btn {
+  padding: 12px 20px;
+  border-left: 1px solid white;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-btn:last-child {
+  border-right: 1px solid white;
+}
+
+.nav-btn:hover {
+  background-color: #a51618;
+}
+
+.nav-btn.light {
+  background-color: #d32f2f;
+}
+
+
+
+.Contact-container {
+    display: flex;
+    justify-content: center;   
+    gap: 80px;                 
+    padding: 40px;             
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+input, textarea {
+  width: 250px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #153E70;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f2c4d;
+}
+
+a {
+    color: white;
+}
+
+.header-container{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.top-nav{
+    background-color: #BE1E20;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    
+}
+
+.div-secondnav{
+    background-color: #153E70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 15px 40px;
+    
+}
+
+
+.right-nav2{
+    display: flex;
+    gap: 25px;
+}
+
+.hero {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.aboutus{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.left img {
+  width: 100%;
+  max-width: 1000px;  /* increase this */
+  height: auto;
+}
+
+.courses-section {
+  padding: 50px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+th {
+  background-color: #153E70;
+  color: white;
+}
+.activities-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.activity {
+  margin-bottom: 30px;
+}
+
+.activity img {
+  width: 300px;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+hr {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.left-nav2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.logo {
+  width: 90px;
+}
+
+.college-name {
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #153E70;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
